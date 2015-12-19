@@ -1,0 +1,18 @@
+<h1>List(s)</h1>
+<div id="message_div" class="hide red-text"></div>
+
+<form id="create_lists" action="/list" method="POST">
+  <label for="list_name">List Name:</label>
+  <input type="text" id="list_name" name="list[name]" />
+  <br />
+
+  <input type="submit" id="list_add_button" value="Add List" />
+</form>
+
+<hr />
+<ul id="list_list" class="left">
+</ul>
+
+<div class="right">
+  <h3 id="list_name"></h3>
+</div>
